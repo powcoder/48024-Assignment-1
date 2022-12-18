@@ -1,0 +1,315 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+Below is a sample I/O trace. Not every conceivable scenario is shown below and you should submit your code to ED to see what specific scenarios are tested. 
+You should also implement your solution in the same order as ED’s test cases so that you can receive incremental feedback and marks as you progress.
+
+
+Membership Management System:
+L- Login
+X- Exit
+Command (L/X): L
+Email: jane.tyler@uts.com
+Password: super123
+Admin Menu: 
+C- Add Membership
+R- View Membership
+U- Update Membership
+D- Delete Membership
+V- View Memberships
+M- MMS Menu
+X- Logout
+Session Admin: Jane Tyler - Menu Commands (C/R/U/D/V/M/X): C
+
+========================================================================================================
+
+Session Admin: Jane Tyler - Menu Commands (C/R/U/D/V/M/X): C
+Name: Qiling Zhang
+Email: Qiling.zhang@uts.com
+Phone: 897574555
+Address: 123 Ultimo Sydney NSW 2007
+ID: 14561234
+expense: 200
+Qiling Zhang record has been created.
+Session Admin: Jane Tyler - Menu Commands (C/R/U/D/V/M/X): V
++----------------------+---------------------------+------------+------------+
+| Membership  Name     | Email                     |  Phone     | Type       |
++----------------------+---------------------------+------------+------------+
+| Thomas Muller        | thomas.muller@uts.com     | 99991111   | Gold       |
+| Alice Stefan         | alice.stefan@uts.com      | 88881111   | Diamond    |
+| Lucy Lu              | lucy.lu@uts.com           | 98981100   | Bronze     |
+| Andreas Brehme       | andreas.b@uts.com         | 90001222   | Platinum   |
+| Ruddy Voller         | ruddy.v@uts.com           | 98980000   | Silver     |
+| Monica Shwarz        | monica.s@uts.com          | 92241188   | Platinum   |
+| Qiling Zhang         | Qiling.zhang@uts.com      | 897574555  | Bronze     |
++----------------------+---------------------------+------------+------------+
+Session Admin: Jane Tyler - Menu Commands (C/R/U/D/V/M/X): R
+Name: Qiling Zhang
++----------------------+---------------------------+------------+------------+
+| Membership Name      | Email                     | Phone      | Type       |
++----------------------+---------------------------+------------+------------+
+| Qiling Zhang         | Qiling.zhang@uts.com      | 897574555  | Bronze     |
++----------------------+---------------------------+------------+------------+
+Session Admin: Jane Tyler - Menu Commands (C/R/U/D/V/M/X): R
+Name: Xie Wu
+Xie Wu record does not exist!
+Session Admin: Jane Tyler - Menu Commands (C/R/U/D/V/M/X): U
+Name: Qiling Zhang
+Updating Qiling Zhang record: 
+Name: Qiling Zhang
+Email: qiling.zhang@gmail.com
+Phone: 898717232
+Address: 123 Ultimo Sydney NSW 2007
+ID: 87651234
+expense: 500
+Qiling Zhang record has been updated.
+
+Session Admin: Jane Tyler - Menu Commands (C/R/U/D/V/M/X): V
++----------------------+---------------------------+------------+------------+
+| Membership  Name     | Email                     |  Phone     | Type       |
++----------------------+---------------------------+------------+------------+
+| Thomas Muller        | thomas.muller@uts.com     | 99991111   | Gold       |
+| Alice Stefan         | alice.stefan@uts.com      | 88881111   | Diamond    |
+| Lucy Lu              | lucy.lu@uts.com           | 98981100   | Bronze     |
+| Andreas Brehme       | andreas.b@uts.com         | 90001222   | Platinum   |
+| Ruddy Voller         | ruddy.v@uts.com           | 98980000   | Silver     |
+| Monica Shwarz        | monica.s@uts.com          | 92241188   | Platinum   |
+| Qiling Zhang         | qiling.zhang@gmail.com    | 898717232  | Silver     |
++----------------------+---------------------------+------------+------------+
+
+Session Admin: Jane Tyler - Menu Commands (C/R/U/D/V/T/X): D
+Name: Lucy
+Lucy record does not exist!
+Session Admin: Jane Tyler - Menu Commands (C/R/U/D/V/T/X): D
+Name: Lucy Lu
+Lucy Lu record has been deleted.
+Session Admin: Jane Tyler - Menu Commands (C/R/U/D/V/M/X): ?
+Admin Menu: 
+C- Add Membership
+R- View Membership
+U- Update Membership
+D- Delete Membership
+V- View Memberships
+M- MMS Menu
+X- Logout
+
+Session Admin: Jane Tyler - Menu Commands (C/R/U/D/V/M/X): M
+MMS Menu: 
+F- Find Slip Details
+V- View MMS Report
+A- Archive MMS Report
+R- Retrieve MMS Report
+S- Show MMS Log
+X- Close
+
+
+Session Admin: Jane Tyler - Menu Commands (F/V/A/R/S/X): F
+Name: Qiling Zhang
+Slip Details:
++--------------------+---------------+---------------+---------------+----------+
+| Membership Name    | Expense       | Credit        | Dollars       | Type     |
++--------------------+---------------+---------------+---------------+----------+
+| Qiling Zhang       | 500.00        | 5000.00       | 25            | Silver   |
++--------------------+---------------+---------------+---------------+----------+
+Session Admin: Jane Tyler - Menu Commands (F/V/A/R/S/X): V
+MMS Report: 
++--------------------+---------------+---------------+---------------+----------+
+| Membership Name    | Expense       | Credit        | Dollars       | Type     |
++--------------------+---------------+---------------+---------------+----------+
+| Thomas Muller      | 2134.50       | 17076.00      | 85            | Gold     |
+| Alice Stefan       | 4512.20       | 27073.20      | 135           | Diamond  |
+| Lucy Lu            | 158.40        | 3168.00       | 15            | Bronze   |
+| Andreas Brehme     | 7596.30       | 30385.20      | 151           | Platinum |
+| Ruddy Voller       | 1100.00       | 11000.00      | 55            | Silver   |
+| Monica Shwarz      | 6741.20       | 26964.80      | 134           | Platinum |
+| Qiling Zhang       | 500.00        | 5000.00       | 25            | Silver   |
++--------------------+---------------+---------------+---------------+----------+
+
++----------------------------+---------------+
+| Total expense              |  22742.60     |
+| Total credits              |  120667.20    |
+| Total dollars              |  600.00       |
+| Average pay per credit     |  8.86         |
+| Average deduction rate     |  0.16         |
+| Average gas deduction rate |  0.21         |
++----------------------------+---------------+
+
+Session Admin: Jane Tyler - Menu Commands (F/V/A/R/S/X): A
+MMS record is created as:Jane Tyler1
+Session Admin: Jane Tyler - Menu Commands (F/V/A/R/S/X): R
+RecordID: Jane Tyler1
+MMS Report: 
++--------------------+---------------+---------------+---------------+----------+
+| Membership Name    | Expense       | Credit        | Dollars       | Type     |
++--------------------+---------------+---------------+---------------+----------+
+| Thomas Muller      | 2134.50       | 17076.00      | 85            | Gold     |
+| Alice Stefan       | 4512.20       | 27073.20      | 135           | Diamond  |
+| Lucy Lu            | 158.40        | 3168.00       | 15            | Bronze   |
+| Andreas Brehme     | 7596.30       | 30385.20      | 151           | Platinum |
+| Ruddy Voller       | 1100.00       | 11000.00      | 55            | Silver   |
+| Monica Shwarz      | 6741.20       | 26964.80      | 134           | Platinum |
+| Qiling Zhang       | 500.00        | 5000.00       | 25            | Silver   |
++--------------------+---------------+---------------+---------------+----------+
+
++----------------------------+---------------+
+| Total expense              |  22742.60     |
+| Total credits              |  120667.20    |
+| Total dollars              |  600.00       |
+| Average pay per credit     |  8.86         |
+| Average deduction rate     |  0.16         |
+| Average gas deduction rate |  0.21         |
++----------------------------+---------------+
+
+Session Admin: Jane Tyler - Menu Commands (F/V/A/R/S/X): S
+MMS Archive:
++--------------+----------------+
+| MMS Record   |  RecordID      |
++--------------+----------------+
+| MMS 1        |  Jane Tyler1   |
++--------------+----------------+
+
+Session Admin: Jane Tyler - Menu Commands (F/V/A/R/S/X): X
+
+SuperMarket Menu:
+Session Admin: Jane Tyler - Menu Commands (C/R/U/D/V/M/X): ?
+Admin Menu: 
+C- Add Membership
+R- View Membership
+U- Update Membership
+D- Delete Membership
+V- View Memberships
+M- MMS Menu
+X- Logout
+Session Admin: Jane Tyler - Menu Commands (C/R/U/D/V/M/X): D
+Name: Qiling Zhang
+Qiling Zhang record has been deleted.
+Session Admin: Jane Tyler - Menu Commands (C/R/U/D/V/M/X): V
++----------------------+---------------------------+------------+------------+
+| Membership  Name     | Email                     |  Phone     | Type       |
++----------------------+---------------------------+------------+------------+
+| Thomas Muller        | thomas.muller@uts.com     | 99991111   | Gold       |
+| Alice Stefan         | alice.stefan@uts.com      | 88881111   | Diamond    |
+| Lucy Lu              | lucy.lu@uts.com           | 98981100   | Bronze     |
+| Andreas Brehme       | andreas.b@uts.com         | 90001222   | Platinum   |
+| Ruddy Voller         | ruddy.v@uts.com           | 98980000   | Silver     |
+| Monica Shwarz        | monica.s@uts.com          | 92241188   | Platinum   |
++----------------------+---------------------------+------------+------------+
+
+Session Admin: Jane Tyler - Menu Commands (C/R/U/D/V/M/X): ?
+MMS Menu: 
+F- Find Slip Details
+V- View MMS Report
+A- Archive MMS Report
+R- Retrieve MMS Report
+S- Show MMS Log
+X- Close
+Session Admin: Jane Tyler - Menu Commands (F/V/A/R/S/X): F
+Name: Qiling Zhang
+Slip details does not exist for Qiling Zhang!
+Session Admin: Jane Tyler - Menu Commands (F/V/A/R/S/X): V
+MMS Report: 
++--------------------+---------------+---------------+---------------+----------+
+| Membership Name    | Expense       | Credit        | Dollars       | Type     |
++--------------------+---------------+---------------+---------------+----------+
+| Thomas Muller      | 2134.50       | 17076.00      | 85            | Gold     |
+| Alice Stefan       | 4512.20       | 27073.20      | 135           | Diamond  |
+| Lucy Lu            | 158.40        | 3168.00       | 15            | Bronze   |
+| Andreas Brehme     | 7596.30       | 30385.20      | 151           | Platinum |
+| Ruddy Voller       | 1100.00       | 11000.00      | 55            | Silver   |
+| Monica Shwarz      | 6741.20       | 26964.80      | 134           | Platinum |
++--------------------+---------------+---------------+---------------+----------+
+
++----------------------------+---------------+
+| Total expense              |  22242.60     |
+| Total credits              |  115667.20    |
+| Total dollars              |  575.00       |
+| Average pay per credit     |  8.67         |
+| Average deduction rate     |  0.17         |
+| Average gas deduction rate |  0.22         |
++----------------------------+---------------+
+
+Session Admin: Jane Tyler - Menu Commands (F/V/A/R/S/X): A
+MMS record is created as:Jane Tyler2
+Session Admin: Jane Tyler - Menu Commands (F/V/A/R/S/X): R
+RecordID: Jane Tyler2
+MMS Report: 
++--------------------+---------------+---------------+---------------+----------+
+| Membership Name    | Expense       | Credit        | Dollars       | Type     |
++--------------------+---------------+---------------+---------------+----------+
+| Thomas Muller      | 2134.50       | 17076.00      | 85            | Gold     |
+| Alice Stefan       | 4512.20       | 27073.20      | 135           | Diamond  |
+| Lucy Lu            | 158.40        | 3168.00       | 15            | Bronze   |
+| Andreas Brehme     | 7596.30       | 30385.20      | 151           | Platinum |
+| Ruddy Voller       | 1100.00       | 11000.00      | 55            | Silver   |
+| Monica Shwarz      | 6741.20       | 26964.80      | 134           | Platinum |
++--------------------+---------------+---------------+---------------+----------+
+
++----------------------------+---------------+
+| Total expense              |  22242.60     |
+| Total credits              |  115667.20    |
+| Total dollars              |  575.00       |
+| Average pay per credit     |  8.67         |
+| Average deduction rate     |  0.17         |
+| Average gas deduction rate |  0.22         |
++----------------------------+---------------+
+
+Session Admin: Jane Tyler - Menu Commands (F/V/A/R/S/X): R
+RecordID: Jane Tyler1
+MMS Report: 
++--------------------+---------------+---------------+---------------+----------+
+| Membership Name    | Expense       | Credit        | Dollars       | Type     |
++--------------------+---------------+---------------+---------------+----------+
+| Thomas Muller      | 2134.50       | 17076.00      | 85            | Gold     |
+| Alice Stefan       | 4512.20       | 27073.20      | 135           | Diamond  |
+| Lucy Lu            | 158.40        | 3168.00       | 15            | Bronze   |
+| Andreas Brehme     | 7596.30       | 30385.20      | 151           | Platinum |
+| Ruddy Voller       | 1100.00       | 11000.00      | 55            | Silver   |
+| Monica Shwarz      | 6741.20       | 26964.80      | 134           | Platinum |
+| Qiling Zhang       | 500.00        | 5000.00       | 25            | Silver   |
++--------------------+---------------+---------------+---------------+----------+
+
++----------------------------+---------------+
+| Total expense              |  22742.60     |
+| Total credits              |  120667.20    |
+| Total dollars              |  600.00       |
+| Average pay per credit     |  8.86         |
+| Average deduction rate     |  0.16         |
+| Average gas deduction rate |  0.21         |
++----------------------------+---------------+
+
+Session Admin: Jane Tyler - Menu Commands (F/V/A/R/S/X): S
+MMS Archive:
++--------------+----------------+
+| MMS Record   |  RecordID      |
++--------------+----------------+
+| MMS 1        |  Jane Tyler1   |
+| MMS 2        |  Jane Tyler2   |
++--------------+----------------+
+Session Admin: Jane Tyler - Menu Commands (F/V/A/R/S/X): A
+MMS record is created as:Jane Tyler3
+Session Admin: Jane Tyler - Menu Commands (F/V/A/R/S/X): S
+MMS Archive:
++--------------+----------------+
+| MMS Record   |  RecordID      |
++--------------+----------------+
+| MMS 1        |  Jane Tyler1   |
+| MMS 2        |  Jane Tyler3   |
+| MMS 3        |  Jane Tyler3   |
++--------------+----------------+
+Session Admin: Jane Tyler - Menu Commands (F/V/A/R/S/X): R
+RecordID: Jane Tyler2
+No MMS is recorded as: Jane Tyler2
+Session Admin: Jane Tyler - Menu Commands (F/V/A/R/S/X): X
+
+SuperMarket Menu:
+Session Admin: Jane Tyler - Menu Commands (C/R/U/D/V/M/X): X
+
+MMS Management System:
+Command (L/X): X
+
+Session Terminated!
